@@ -8,14 +8,14 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/names"
-	apideployer "launchpad.net/juju-core/state/api/deployer"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/worker"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/names"
+	apideployer "github.com/juju/core/state/api/deployer"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/api/watcher"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/set"
+	"github.com/juju/core/worker"
 )
 
 var logger = loggo.GetLogger("juju.worker.deployer")

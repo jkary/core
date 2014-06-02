@@ -13,8 +13,8 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/golxc"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/container"
+	"github.com/juju/core/utils"
 )
 
 // This file provides a mock implementation of the golxc interfaces

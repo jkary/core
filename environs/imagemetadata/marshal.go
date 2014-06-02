@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/utils/set"
 )
 
 const (

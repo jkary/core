@@ -13,17 +13,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/bootstrap"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/storage"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/bootstrap"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/configstore"
+	"github.com/juju/core/environs/storage"
+	envtesting "github.com/juju/core/environs/testing"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju/testing"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/version"
 )
 
 // Tests is a gocheck suite containing tests verifying juju functionality

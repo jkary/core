@@ -12,16 +12,16 @@ import (
 	"github.com/joyent/gosign/auth"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/configstore"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/instances"
+	"github.com/juju/core/environs/jujutest"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/testing"
+	"github.com/juju/core/utils"
 )
 
 // Use ShortAttempt to poll for short-term events.

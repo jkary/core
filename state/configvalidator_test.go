@@ -7,9 +7,9 @@ import (
 	"github.com/juju/errors"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/state"
+	coretesting "github.com/juju/core/testing"
 )
 
 type ConfigValidatorSuite struct {

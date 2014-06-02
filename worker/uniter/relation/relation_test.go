@@ -13,9 +13,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm/hooks"
-	"launchpad.net/juju-core/worker/uniter/hook"
-	"launchpad.net/juju-core/worker/uniter/relation"
+	"github.com/juju/core/charm/hooks"
+	"github.com/juju/core/worker/uniter/hook"
+	"github.com/juju/core/worker/uniter/relation"
 )
 
 type StateDirSuite struct{}

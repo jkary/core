@@ -8,17 +8,17 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cloudinit"
-	"launchpad.net/juju-core/cloudinit/sshinit"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	envcloudinit "launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/environs/config"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/state/api/params"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/cloudinit"
+	"github.com/juju/core/cloudinit/sshinit"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs"
+	envcloudinit "github.com/juju/core/environs/cloudinit"
+	"github.com/juju/core/environs/config"
+	envtools "github.com/juju/core/environs/tools"
+	"github.com/juju/core/state/api/params"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/version"
 )
 
 type configureSuite struct {

@@ -8,8 +8,8 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/store"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/store"
 )
 
 // ConfigCommand defines a command which requires a YAML config file.

@@ -17,8 +17,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	ft "launchpad.net/juju-core/testing/filetesting"
-	"launchpad.net/juju-core/utils/zip"
+	ft "github.com/juju/core/testing/filetesting"
+	"github.com/juju/core/utils/zip"
 )
 
 type ZipSuite struct {

@@ -12,9 +12,9 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/juju/osenv"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/juju/osenv"
 )
 
 const CurrentEnvironmentFilename = "current-environment"

@@ -9,12 +9,12 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/juju/arch"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/version/ubuntu"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/juju/arch"
+	coretools "github.com/juju/core/tools"
+	"github.com/juju/core/version"
+	"github.com/juju/core/version/ubuntu"
 )
 
 var logger = loggo.GetLogger("juju.environs.tools")

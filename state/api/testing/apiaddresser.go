@@ -6,10 +6,10 @@ package testing
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/watcher"
-	statetesting "launchpad.net/juju-core/state/testing"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/watcher"
+	statetesting "github.com/juju/core/state/testing"
 )
 
 type APIAddresserTests struct {

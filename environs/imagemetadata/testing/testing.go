@@ -11,11 +11,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/juju/core/environs/filestorage"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/utils/set"
 )
 
 // ParseMetadataFromDir loads ImageMetadata from the specified directory.

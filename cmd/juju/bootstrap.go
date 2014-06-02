@@ -9,16 +9,16 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/bootstrap"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/bootstrap"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/tools"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/provider"
 )
 
 const bootstrapDoc = `

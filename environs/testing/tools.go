@@ -11,19 +11,19 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	agenttools "launchpad.net/juju-core/agent/tools"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/bootstrap"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/worker/upgrader"
+	agenttools "github.com/juju/core/agent/tools"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/bootstrap"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/storage"
+	envtools "github.com/juju/core/environs/tools"
+	"github.com/juju/core/state"
+	coretesting "github.com/juju/core/testing"
+	coretools "github.com/juju/core/tools"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/set"
+	"github.com/juju/core/version"
+	"github.com/juju/core/worker/upgrader"
 )
 
 // ToolsFixture is used as a fixture to stub out the default tools URL so we

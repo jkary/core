@@ -10,11 +10,11 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/gomaasapi"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/network"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/provider/maas"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/network"
+	envtesting "github.com/juju/core/environs/testing"
+	"github.com/juju/core/provider/maas"
+	coretesting "github.com/juju/core/testing"
 )
 
 type environSuite struct {

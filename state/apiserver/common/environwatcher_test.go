@@ -9,14 +9,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/configstore"
+	"github.com/juju/core/provider/dummy"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/apiserver/common"
+	"github.com/juju/core/testing"
 )
 
 type environWatcherSuite struct {

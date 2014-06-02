@@ -9,9 +9,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/apiserver/common"
 )
 
 type environMachinesWatcherSuite struct{}

@@ -12,9 +12,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/plugins/local"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/plugins/local"
+	coretesting "github.com/juju/core/testing"
 )
 
 type mainSuite struct {

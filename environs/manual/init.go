@@ -10,10 +10,10 @@ import (
 	"strconv"
 	"strings"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/arch"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju/arch"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/ssh"
 )
 
 // detectionScript is the script to run on the remote machine to

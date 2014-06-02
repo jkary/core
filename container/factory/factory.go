@@ -8,10 +8,10 @@ package factory
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/container/kvm"
-	"launchpad.net/juju-core/container/lxc"
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/container"
+	"github.com/juju/core/container/kvm"
+	"github.com/juju/core/container/lxc"
+	"github.com/juju/core/instance"
 )
 
 // NewContainerManager creates the appropriate container.Manager for the

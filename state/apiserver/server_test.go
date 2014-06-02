@@ -11,14 +11,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/rpc"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/rpc"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/apiserver"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils"
 )
 
 func TestAll(t *stdtesting.T) {

@@ -4,9 +4,9 @@
 package common
 
 import (
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/watcher"
 )
 
 // AgentEntityWatcher implements a common Watch method for use by

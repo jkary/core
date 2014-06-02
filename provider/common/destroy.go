@@ -4,8 +4,8 @@
 package common
 
 import (
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/instance"
 )
 
 // Destroy is a common implementation of the Destroy method defined on

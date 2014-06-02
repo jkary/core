@@ -15,12 +15,12 @@ import (
 	"labix.org/v2/mgo/bson"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/watcher"
+	"github.com/juju/core/utils/set"
 )
 
 var watchLogger = loggo.GetLogger("juju.state.watch")

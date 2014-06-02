@@ -10,12 +10,12 @@ import (
 	"launchpad.net/goamz/aws"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/simplestreams"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/environs/filestorage"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/simplestreams"
+	coretesting "github.com/juju/core/testing"
 )
 
 type ValidateImageMetadataSuite struct {

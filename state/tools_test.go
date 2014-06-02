@@ -10,9 +10,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/state"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/version"
 )
 
 type tooler interface {

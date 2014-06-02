@@ -9,8 +9,8 @@ import (
 
 	"launchpad.net/goose/identity"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/schema"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/schema"
 )
 
 var configFields = schema.Fields{

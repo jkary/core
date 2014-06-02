@@ -8,9 +8,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/httpstorage"
-	"launchpad.net/juju-core/environs/storage"
+	"github.com/juju/core/environs/filestorage"
+	"github.com/juju/core/environs/httpstorage"
+	"github.com/juju/core/environs/storage"
 )
 
 // CreateLocalTestStorage returns the listener, which needs to be closed, and

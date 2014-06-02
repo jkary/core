@@ -10,12 +10,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/provider/manual"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/provider/manual"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils"
 )
 
 type providerSuite struct {

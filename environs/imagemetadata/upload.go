@@ -13,8 +13,8 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/storage"
 )
 
 var logger = loggo.GetLogger("juju.environs.imagemetadata")

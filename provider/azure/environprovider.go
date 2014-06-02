@@ -6,8 +6,8 @@ package azure
 import (
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
 )
 
 // Register the Azure provider with Juju.

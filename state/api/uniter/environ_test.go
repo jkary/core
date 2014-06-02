@@ -6,8 +6,8 @@ package uniter_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/uniter"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/uniter"
 )
 
 type environSuite struct {

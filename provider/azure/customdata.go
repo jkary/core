@@ -7,8 +7,8 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/cloudinit"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/cloudinit"
 )
 
 // makeCustomData produces custom data for Azure.  This is a base64-encoded

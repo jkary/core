@@ -6,11 +6,11 @@ package main
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd/envcmd"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/cmd/envcmd"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/testing"
 )
 
 type RemoveUnitSuite struct {

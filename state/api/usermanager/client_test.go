@@ -6,9 +6,9 @@ package usermanager_test
 import (
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/usermanager"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/usermanager"
 )
 
 type usermanagerSuite struct {

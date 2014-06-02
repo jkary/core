@@ -10,14 +10,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/bootstrap"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/cert"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/bootstrap"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/configstore"
+	envtesting "github.com/juju/core/environs/testing"
+	"github.com/juju/core/provider/dummy"
+	"github.com/juju/core/testing"
 )
 
 type OpenSuite struct {

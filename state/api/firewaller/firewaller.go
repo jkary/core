@@ -4,10 +4,10 @@
 package firewaller
 
 import (
-	"launchpad.net/juju-core/state/api/base"
-	"launchpad.net/juju-core/state/api/common"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
+	"github.com/juju/core/state/api/base"
+	"github.com/juju/core/state/api/common"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/api/watcher"
 )
 
 const firewallerFacade = "Firewaller"

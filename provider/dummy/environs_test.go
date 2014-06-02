@@ -9,16 +9,16 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/bootstrap"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/network"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/instance"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/bootstrap"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/jujutest"
+	"github.com/juju/core/environs/network"
+	envtesting "github.com/juju/core/environs/testing"
+	"github.com/juju/core/instance"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/provider/dummy"
+	"github.com/juju/core/testing"
 )
 
 func TestPackage(t *stdtesting.T) {

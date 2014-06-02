@@ -9,7 +9,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/names"
+	"github.com/juju/core/names"
 )
 
 type networkSuite struct{}

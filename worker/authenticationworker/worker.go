@@ -10,12 +10,12 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/state/api/keyupdater"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/utils/ssh"
-	"launchpad.net/juju-core/worker"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/state/api/keyupdater"
+	"github.com/juju/core/state/api/watcher"
+	"github.com/juju/core/utils/set"
+	"github.com/juju/core/utils/ssh"
+	"github.com/juju/core/worker"
 )
 
 // The user name used to ssh into Juju nodes.

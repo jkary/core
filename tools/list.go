@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/utils/set"
+	"github.com/juju/core/version"
 )
 
 // List holds tools available in an environment. The order of tools within

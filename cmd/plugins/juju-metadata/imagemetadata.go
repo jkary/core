@@ -10,16 +10,16 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/juju/arch"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/configstore"
+	"github.com/juju/core/environs/filestorage"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/juju/arch"
 )
 
 // ImageMetadataCommand is used to write out simplestreams image metadata information.

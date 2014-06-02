@@ -11,13 +11,13 @@ import (
 	"regexp"
 	"strings"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/agent/tools"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/upstart"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/agent/tools"
+	"github.com/juju/core/juju/osenv"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/upstart"
+	"github.com/juju/core/version"
 )
 
 // InitDir is the default upstart init directory.

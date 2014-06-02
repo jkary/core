@@ -9,15 +9,15 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	sstesting "launchpad.net/juju-core/environs/simplestreams/testing"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/configstore"
+	sstesting "github.com/juju/core/environs/simplestreams/testing"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/environs/tools"
+	"github.com/juju/core/provider/dummy"
+	"github.com/juju/core/testing"
+	coretesting "github.com/juju/core/testing"
 )
 
 type URLsSuite struct {

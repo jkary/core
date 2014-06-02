@@ -9,16 +9,16 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/juju/osenv"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/environs/filestorage"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/storage"
+	envtools "github.com/juju/core/environs/tools"
+	"github.com/juju/core/juju/osenv"
+	coretools "github.com/juju/core/tools"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/version"
 )
 
 // ToolsMetadataCommand is used to generate simplestreams metadata for juju tools.

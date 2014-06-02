@@ -6,9 +6,9 @@ package environs
 import (
 	"github.com/juju/errors"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/state"
 )
 
 // environStatePolicy implements state.Policy in

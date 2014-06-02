@@ -10,8 +10,8 @@ import (
 
 	"github.com/joyent/gosdc/cloudapi"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/instance"
 )
 
 const (

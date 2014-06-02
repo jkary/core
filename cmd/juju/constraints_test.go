@@ -9,11 +9,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/juju/testing"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/juju/testing"
+	coretesting "github.com/juju/core/testing"
 )
 
 type ConstraintsCommandsSuite struct {

@@ -14,12 +14,12 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/bootstrap"
-	"launchpad.net/juju-core/environs/storage"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/instance"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/bootstrap"
+	"github.com/juju/core/environs/storage"
+	envtesting "github.com/juju/core/environs/testing"
+	"github.com/juju/core/instance"
+	coretesting "github.com/juju/core/testing"
 )
 
 type StateSuite struct {

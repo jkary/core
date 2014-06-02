@@ -9,9 +9,9 @@ import (
 
 	"github.com/juju/errors"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/utils"
-	uhook "launchpad.net/juju-core/worker/uniter/hook"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/utils"
+	uhook "github.com/juju/core/worker/uniter/hook"
 )
 
 // Op enumerates the operations the uniter can perform.

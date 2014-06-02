@@ -9,13 +9,13 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/juju/osenv"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	keymanagerserver "launchpad.net/juju-core/state/apiserver/keymanager"
-	keymanagertesting "launchpad.net/juju-core/state/apiserver/keymanager/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	sshtesting "launchpad.net/juju-core/utils/ssh/testing"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/juju/osenv"
+	jujutesting "github.com/juju/core/juju/testing"
+	keymanagerserver "github.com/juju/core/state/apiserver/keymanager"
+	keymanagertesting "github.com/juju/core/state/apiserver/keymanager/testing"
+	coretesting "github.com/juju/core/testing"
+	sshtesting "github.com/juju/core/utils/ssh/testing"
 )
 
 type AuthorizedKeysSuite struct {

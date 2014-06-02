@@ -12,10 +12,10 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/tomb"
 
-	apiWatcher "launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/state/watcher"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/worker"
+	apiWatcher "github.com/juju/core/state/api/watcher"
+	"github.com/juju/core/state/watcher"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/worker"
 )
 
 type stringsWorkerSuite struct {

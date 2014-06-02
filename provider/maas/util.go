@@ -10,9 +10,9 @@ import (
 
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/utils"
 )
 
 // extractSystemId extracts the 'system_id' part from an InstanceId.

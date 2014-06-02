@@ -12,8 +12,8 @@ import (
 	"github.com/juju/errors"
 	"launchpad.net/gwacl"
 
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/utils"
 )
 
 type azureStorage struct {

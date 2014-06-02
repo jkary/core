@@ -6,12 +6,12 @@ package upgrader
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/state/api/base"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/state/api/base"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/api/watcher"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/version"
 )
 
 // State provides access to an upgrader worker's view of the state.

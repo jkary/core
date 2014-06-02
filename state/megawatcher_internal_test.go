@@ -13,13 +13,13 @@ import (
 	"labix.org/v2/mgo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/multiwatcher"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/multiwatcher"
+	"github.com/juju/core/state/watcher"
+	"github.com/juju/core/testing"
 )
 
 var dottedConfig = `

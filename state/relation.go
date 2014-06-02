@@ -15,8 +15,8 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/names"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/names"
 )
 
 // relationKey returns a string describing the relation defined by

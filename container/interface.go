@@ -4,8 +4,8 @@
 package container
 
 import (
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/environs/cloudinit"
+	"github.com/juju/core/instance"
 )
 
 const (

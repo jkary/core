@@ -14,17 +14,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	apiuniter "launchpad.net/juju-core/state/api/uniter"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/proxy"
-	"launchpad.net/juju-core/worker/uniter"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	apiuniter "github.com/juju/core/state/api/uniter"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/proxy"
+	"github.com/juju/core/worker/uniter"
+	"github.com/juju/core/worker/uniter/jujuc"
 )
 
 var noProxies = proxy.Settings{}

@@ -8,8 +8,8 @@ import (
 
 	"labix.org/v2/mgo/bson"
 
-	"launchpad.net/juju-core/environs/network"
-	"launchpad.net/juju-core/names"
+	"github.com/juju/core/environs/network"
+	"github.com/juju/core/names"
 )
 
 // Network represents the state of a network.

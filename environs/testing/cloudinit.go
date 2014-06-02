@@ -4,7 +4,7 @@
 package testing
 
 import (
-	"launchpad.net/juju-core/environs"
+	"github.com/juju/core/environs"
 )
 
 // PatchDataDir temporarily overrides environs.DataDir for testing purposes.

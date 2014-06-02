@@ -7,8 +7,8 @@ import (
 	"github.com/juju/testing"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/utils/ssh"
-	sshtesting "launchpad.net/juju-core/utils/ssh/testing"
+	"github.com/juju/core/utils/ssh"
+	sshtesting "github.com/juju/core/utils/ssh/testing"
 )
 
 type FingerprintSuite struct {

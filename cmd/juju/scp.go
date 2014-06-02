@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/utils/ssh"
 )
 
 // SCPCommand is responsible for launching a scp command to copy files to/from remote machine(s)

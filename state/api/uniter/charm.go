@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/utils"
 )
 
 // This module implements a subset of the interface provided by

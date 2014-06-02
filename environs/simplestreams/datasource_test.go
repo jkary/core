@@ -11,10 +11,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/simplestreams/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/simplestreams/testing"
+	"github.com/juju/core/utils"
 )
 
 var _ = gc.Suite(&datasourceSuite{})

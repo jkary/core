@@ -4,7 +4,7 @@
 package uniter
 
 import (
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/juju/core/state/api/params"
 )
 
 // This module implements a subset of the interface provided by

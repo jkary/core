@@ -6,8 +6,8 @@ package client_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/state"
 )
 
 type statusSuite struct {

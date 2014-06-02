@@ -14,11 +14,11 @@ import (
 	"labix.org/v2/mgo/txn"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/testing"
 )
 
 // transactionHook holds Before and After func()s that will be called

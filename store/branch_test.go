@@ -15,9 +15,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/store"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/store"
+	"github.com/juju/core/testing"
 )
 
 func (s *StoreSuite) dummyBranch(c *gc.C, suffix string) bzrDir {

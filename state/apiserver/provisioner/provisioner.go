@@ -6,15 +6,15 @@ package provisioner
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/container"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/apiserver/common"
+	"github.com/juju/core/state/watcher"
+	"github.com/juju/core/utils/set"
 )
 
 // ProvisionerAPI provides access to the Provisioner API facade.

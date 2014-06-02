@@ -15,7 +15,7 @@ import (
 
 	"code.google.com/p/go.crypto/ssh"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/utils"
 )
 
 const sshDefaultPort = 22

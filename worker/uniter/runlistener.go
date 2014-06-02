@@ -12,7 +12,7 @@ import (
 	"os"
 	"sync"
 
-	"launchpad.net/juju-core/utils/exec"
+	"github.com/juju/core/utils/exec"
 )
 
 const JujuRunEndpoint = "JujuRunServer.RunCommands"

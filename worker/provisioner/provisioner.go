@@ -10,14 +10,14 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	apiprovisioner "launchpad.net/juju-core/state/api/provisioner"
-	apiwatcher "launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/instance"
+	apiprovisioner "github.com/juju/core/state/api/provisioner"
+	apiwatcher "github.com/juju/core/state/api/watcher"
+	"github.com/juju/core/state/watcher"
+	"github.com/juju/core/worker"
 )
 
 var logger = loggo.GetLogger("juju.provisioner")

@@ -10,7 +10,7 @@ import (
 
 	"launchpad.net/lpad"
 
-	"launchpad.net/juju-core/store"
+	"github.com/juju/core/store"
 )
 
 func main() {

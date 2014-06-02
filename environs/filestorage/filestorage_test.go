@@ -19,9 +19,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/environs/filestorage"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/utils"
 )
 
 func TestPackage(t *testing.T) {

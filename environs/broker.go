@@ -4,11 +4,11 @@
 package environs
 
 import (
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/environs/network"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/tools"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs/cloudinit"
+	"github.com/juju/core/environs/network"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/tools"
 )
 
 // StartInstanceParams holds parameters for the

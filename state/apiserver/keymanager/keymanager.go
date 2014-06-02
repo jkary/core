@@ -11,14 +11,14 @@ import (
 	"github.com/juju/errors"
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/apiserver/common"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/set"
+	"github.com/juju/core/utils/ssh"
 )
 
 var logger = loggo.GetLogger("juju.state.apiserver.keymanager")

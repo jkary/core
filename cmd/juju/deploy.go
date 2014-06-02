@@ -11,17 +11,17 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/juju"
+	"github.com/juju/core/juju/osenv"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
 )
 
 type DeployCommand struct {

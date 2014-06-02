@@ -13,14 +13,14 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/juju"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/ssh"
 )
 
 // SSHCommand is responsible for launching a ssh shell on a given unit or machine.

@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/api/watcher"
 )
 
 // Machine represents a juju machine as seen by the provisioner worker.

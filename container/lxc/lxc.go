@@ -16,12 +16,12 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/golxc"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/container"
+	"github.com/juju/core/environs/cloudinit"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/names"
+	"github.com/juju/core/version"
 )
 
 var logger = loggo.GetLogger("juju.container.lxc")

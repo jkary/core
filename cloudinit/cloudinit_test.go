@@ -9,9 +9,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cloudinit"
-	coretesting "launchpad.net/juju-core/testing"
-	sshtesting "launchpad.net/juju-core/utils/ssh/testing"
+	"github.com/juju/core/cloudinit"
+	coretesting "github.com/juju/core/testing"
+	sshtesting "github.com/juju/core/utils/ssh/testing"
 )
 
 // TODO integration tests, but how?

@@ -14,15 +14,15 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/presence"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/presence"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/set"
+	"github.com/juju/core/version"
 )
 
 // Machine represents the state of a machine.

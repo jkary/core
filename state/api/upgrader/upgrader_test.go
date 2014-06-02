@@ -10,17 +10,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/upgrader"
-	statetesting "launchpad.net/juju-core/state/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	envtesting "github.com/juju/core/environs/testing"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/api/upgrader"
+	statetesting "github.com/juju/core/state/testing"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/version"
 )
 
 func TestAll(t *stdtesting.T) {

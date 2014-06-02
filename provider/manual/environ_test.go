@@ -10,14 +10,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/manual"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/arch"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/manual"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/environs/tools"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju/arch"
+	coretesting "github.com/juju/core/testing"
 )
 
 type environSuite struct {

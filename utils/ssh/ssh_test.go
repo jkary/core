@@ -13,8 +13,8 @@ import (
 	"github.com/juju/testing"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/utils/ssh"
 )
 
 const (

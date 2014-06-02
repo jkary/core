@@ -15,11 +15,11 @@ import (
 	"github.com/juju/errors"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/replicaset"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/utils/voyeur"
-	"launchpad.net/juju-core/worker"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/replicaset"
+	"github.com/juju/core/state"
+	"github.com/juju/core/utils/voyeur"
+	"github.com/juju/core/worker"
 )
 
 // This file holds helper functions for mocking pieces of State and replicaset

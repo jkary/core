@@ -13,14 +13,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/instance"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/apiserver"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils"
 )
 
 type loginSuite struct {

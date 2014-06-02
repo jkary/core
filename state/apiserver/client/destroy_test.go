@@ -10,10 +10,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
 )
 
 type destroyEnvironmentSuite struct {

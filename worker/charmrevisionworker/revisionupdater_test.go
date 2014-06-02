@@ -10,14 +10,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/apiserver/charmrevisionupdater/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/worker/charmrevisionworker"
+	"github.com/juju/core/charm"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/apiserver/charmrevisionupdater/testing"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/worker/charmrevisionworker"
 )
 
 func TestPackage(t *stdtesting.T) {

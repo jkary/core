@@ -11,12 +11,12 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	charmtesting "launchpad.net/juju-core/charm/testing"
-	"launchpad.net/juju-core/cmd/envcmd"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/charm"
+	charmtesting "github.com/juju/core/charm/testing"
+	"github.com/juju/core/cmd/envcmd"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/testing"
 )
 
 type UpgradeCharmErrorsSuite struct {

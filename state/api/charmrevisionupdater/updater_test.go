@@ -6,12 +6,12 @@ package charmrevisionupdater_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/charmrevisionupdater"
-	"launchpad.net/juju-core/state/apiserver/charmrevisionupdater/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/charm"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/charmrevisionupdater"
+	"github.com/juju/core/state/apiserver/charmrevisionupdater/testing"
+	"github.com/juju/core/utils"
 )
 
 type versionUpdaterSuite struct {

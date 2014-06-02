@@ -10,9 +10,9 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/cloudinit"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/juju/core/cloudinit"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/ssh"
 )
 
 var logger = loggo.GetLogger("juju.cloudinit.sshinit")

@@ -10,11 +10,11 @@ import (
 	"launchpad.net/goamz/ec2"
 	"launchpad.net/goamz/s3"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/jujutest"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/instance"
 )
 
 func ControlBucketName(e environs.Environ) string {

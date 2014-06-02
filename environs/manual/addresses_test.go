@@ -8,9 +8,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/manual"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs/manual"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/testing"
 )
 
 const (

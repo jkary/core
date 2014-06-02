@@ -13,11 +13,11 @@ import (
 	"labix.org/v2/mgo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/replicaset"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/singular"
+	"github.com/juju/core/replicaset"
+	"github.com/juju/core/testing"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/worker"
+	"github.com/juju/core/worker/singular"
 )
 
 var logger = loggo.GetLogger("juju.singular-test")

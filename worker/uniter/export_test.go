@@ -4,7 +4,7 @@
 package uniter
 
 import (
-	"launchpad.net/juju-core/utils/proxy"
+	"github.com/juju/core/utils/proxy"
 )
 
 func SetUniterObserver(u *Uniter, observer UniterExecutionObserver) {

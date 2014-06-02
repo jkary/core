@@ -12,12 +12,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/imagemetadata/testing"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs/filestorage"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/imagemetadata/testing"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/storage"
+	coretesting "github.com/juju/core/testing"
 )
 
 var _ = gc.Suite(&uploadSuite{})

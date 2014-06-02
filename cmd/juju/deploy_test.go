@@ -10,14 +10,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils"
 )
 
 type DeploySuite struct {

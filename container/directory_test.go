@@ -10,8 +10,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/container"
+	"github.com/juju/core/testing"
 )
 
 type DirectorySuite struct {

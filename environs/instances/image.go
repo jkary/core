@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"sort"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/juju/arch"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/juju/arch"
 )
 
 // InstanceConstraint constrains the possible instances that may be

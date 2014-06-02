@@ -22,16 +22,16 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/multiwatcher"
-	"launchpad.net/juju-core/state/presence"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/multiwatcher"
+	"github.com/juju/core/state/presence"
+	"github.com/juju/core/state/watcher"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/version"
 )
 
 var logger = loggo.GetLogger("juju.state")

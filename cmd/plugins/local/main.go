@@ -9,7 +9,7 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/cmd"
+	"github.com/juju/core/cmd"
 )
 
 var logger = loggo.GetLogger("juju.plugins.local")

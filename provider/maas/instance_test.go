@@ -8,7 +8,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/instance"
 )
 
 type instanceTest struct {

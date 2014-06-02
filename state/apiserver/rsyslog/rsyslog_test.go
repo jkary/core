@@ -9,16 +9,16 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	apirsyslog "launchpad.net/juju-core/state/api/rsyslog"
-	"launchpad.net/juju-core/state/apiserver/common"
-	commontesting "launchpad.net/juju-core/state/apiserver/common/testing"
-	"launchpad.net/juju-core/state/apiserver/rsyslog"
-	apiservertesting "launchpad.net/juju-core/state/apiserver/testing"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/params"
+	apirsyslog "github.com/juju/core/state/api/rsyslog"
+	"github.com/juju/core/state/apiserver/common"
+	commontesting "github.com/juju/core/state/apiserver/common/testing"
+	"github.com/juju/core/state/apiserver/rsyslog"
+	apiservertesting "github.com/juju/core/state/apiserver/testing"
+	coretesting "github.com/juju/core/testing"
 )
 
 type rsyslogSuite struct {

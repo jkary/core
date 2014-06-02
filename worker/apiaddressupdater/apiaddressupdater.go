@@ -8,9 +8,9 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/state/api/watcher"
+	"github.com/juju/core/worker"
 )
 
 var logger = loggo.GetLogger("juju.worker.apiaddressupdater")

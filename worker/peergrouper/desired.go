@@ -9,7 +9,7 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/replicaset"
+	"github.com/juju/core/replicaset"
 )
 
 // jujuMachineTag is the key for the tag where we save the member's juju machine id.

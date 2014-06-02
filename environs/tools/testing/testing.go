@@ -19,17 +19,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/sync"
-	"launchpad.net/juju-core/environs/tools"
-	coretesting "launchpad.net/juju-core/testing"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/version/ubuntu"
+	"github.com/juju/core/environs/filestorage"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/environs/sync"
+	"github.com/juju/core/environs/tools"
+	coretesting "github.com/juju/core/testing"
+	coretools "github.com/juju/core/tools"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/set"
+	"github.com/juju/core/version"
+	"github.com/juju/core/version/ubuntu"
 )
 
 func GetMockBundleTools(c *gc.C) tools.BundleToolsFunc {

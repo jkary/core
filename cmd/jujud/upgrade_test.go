@@ -11,12 +11,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/apt"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/state"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils/apt"
+	"github.com/juju/core/version"
 )
 
 type UpgradeSuite struct {

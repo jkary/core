@@ -9,8 +9,8 @@ import (
 
 	"launchpad.net/gomaasapi"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/provider/common"
 )
 
 type maasInstance struct {

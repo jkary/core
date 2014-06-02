@@ -9,8 +9,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/juju/osenv"
+	"github.com/juju/core/testing"
 )
 
 type varsSuite struct {

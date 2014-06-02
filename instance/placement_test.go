@@ -6,7 +6,7 @@ package instance_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/instance"
 )
 
 type PlacementSuite struct{}

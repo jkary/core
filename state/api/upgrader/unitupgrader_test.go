@@ -8,15 +8,15 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/upgrader"
-	statetesting "launchpad.net/juju-core/state/testing"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/api/upgrader"
+	statetesting "github.com/juju/core/state/testing"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/version"
 )
 
 type unitUpgraderSuite struct {

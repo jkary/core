@@ -9,7 +9,7 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/juju/core/state/watcher"
 )
 
 type dummyWatcher struct {

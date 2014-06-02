@@ -6,7 +6,7 @@ package kvm
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/instance"
 )
 
 type kvmInstance struct {

@@ -18,13 +18,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent/mongo"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state/api/params"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/upstart"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/agent/mongo"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/state/api/params"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/upstart"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/version"
 )
 
 func Test(t *stdtesting.T) { gc.TestingT(t) }

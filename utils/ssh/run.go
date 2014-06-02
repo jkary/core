@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	utilexec "launchpad.net/juju-core/utils/exec"
+	utilexec "github.com/juju/core/utils/exec"
 )
 
 // ExecParams are used for the parameters for ExecuteCommandOnMachine.

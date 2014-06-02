@@ -11,16 +11,16 @@ import (
 	"github.com/juju/loggo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/container/kvm"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/container"
+	"github.com/juju/core/container/kvm"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/instance"
+	jujutesting "github.com/juju/core/juju/testing"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/version"
 )
 
 type LiveSuite struct {

@@ -8,10 +8,10 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/charm/hooks"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/worker/uniter/hook"
+	"github.com/juju/core/charm/hooks"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/watcher"
+	"github.com/juju/core/worker/uniter/hook"
 )
 
 // HookQueue is the minimal interface implemented by both AliveHookQueue and

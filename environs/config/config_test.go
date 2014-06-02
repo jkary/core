@@ -13,13 +13,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/schema"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/proxy"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/cert"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/juju/osenv"
+	"github.com/juju/core/schema"
+	"github.com/juju/core/testing"
+	"github.com/juju/core/utils/proxy"
+	"github.com/juju/core/version"
 )
 
 func Test(t *stdtesting.T) {

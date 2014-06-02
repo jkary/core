@@ -8,10 +8,10 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/version"
 )
 
 var logger = loggo.GetLogger("juju.upgrade")

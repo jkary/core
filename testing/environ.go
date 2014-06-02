@@ -9,9 +9,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/juju/osenv"
+	"github.com/juju/core/utils/ssh"
 )
 
 // FakeAuthKeys holds the authorized key used for testing

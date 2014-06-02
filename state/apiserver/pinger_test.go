@@ -9,12 +9,12 @@ import (
 	"github.com/juju/loggo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/rpc"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/apiserver"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/rpc"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/apiserver"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils"
 )
 
 type stateSuite struct {

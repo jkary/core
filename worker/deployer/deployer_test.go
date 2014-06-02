@@ -12,14 +12,14 @@ import (
 	"github.com/juju/errors"
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	apideployer "launchpad.net/juju-core/state/api/deployer"
-	"launchpad.net/juju-core/state/api/params"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/deployer"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	apideployer "github.com/juju/core/state/api/deployer"
+	"github.com/juju/core/state/api/params"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/worker"
+	"github.com/juju/core/worker/deployer"
 )
 
 func TestPackage(t *stdtesting.T) {

@@ -8,8 +8,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/state"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/state"
 )
 
 type RelationSuite struct {

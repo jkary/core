@@ -8,13 +8,13 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/apiserver/charmrevisionupdater"
-	"launchpad.net/juju-core/state/apiserver/charmrevisionupdater/testing"
-	"launchpad.net/juju-core/state/apiserver/common"
-	apiservertesting "launchpad.net/juju-core/state/apiserver/testing"
+	"github.com/juju/core/charm"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/apiserver/charmrevisionupdater"
+	"github.com/juju/core/state/apiserver/charmrevisionupdater/testing"
+	"github.com/juju/core/state/apiserver/common"
+	apiservertesting "github.com/juju/core/state/apiserver/testing"
 )
 
 type charmVersionSuite struct {

@@ -9,9 +9,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/ssh"
-	sshtesting "launchpad.net/juju-core/utils/ssh/testing"
+	"github.com/juju/core/testing"
+	"github.com/juju/core/utils/ssh"
+	sshtesting "github.com/juju/core/utils/ssh/testing"
 )
 
 type AuthorisedKeysKeysSuite struct {

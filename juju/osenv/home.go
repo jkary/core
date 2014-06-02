@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"sync"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/utils"
 )
 
 // jujuHome stores the path to the juju configuration

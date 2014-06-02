@@ -6,10 +6,10 @@ package upgrades_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/upgrades"
+	"github.com/juju/core/environs/config"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/upgrades"
 )
 
 type rsyslogPortSuite struct {

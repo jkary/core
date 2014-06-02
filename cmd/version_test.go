@@ -9,7 +9,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/version"
 )
 
 type VersionSuite struct{}

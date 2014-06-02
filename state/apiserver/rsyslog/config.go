@@ -3,9 +3,9 @@ package rsyslog
 import (
 	"net"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	apirsyslog "launchpad.net/juju-core/state/api/rsyslog"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/instance"
+	apirsyslog "github.com/juju/core/state/api/rsyslog"
 )
 
 // newRsyslogConfig creates a new instance of the RsyslogConfig.

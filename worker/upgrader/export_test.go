@@ -4,8 +4,8 @@
 package upgrader
 
 import (
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/utils"
 )
 
 var (

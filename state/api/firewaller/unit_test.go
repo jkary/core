@@ -7,10 +7,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state/api/firewaller"
-	"launchpad.net/juju-core/state/api/params"
-	statetesting "launchpad.net/juju-core/state/testing"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/state/api/firewaller"
+	"github.com/juju/core/state/api/params"
+	statetesting "github.com/juju/core/state/testing"
 )
 
 type unitSuite struct {

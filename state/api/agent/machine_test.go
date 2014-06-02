@@ -12,14 +12,14 @@ import (
 	"labix.org/v2/mgo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent/mongo"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	apiserveragent "launchpad.net/juju-core/state/apiserver/agent"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/agent/mongo"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	apiserveragent "github.com/juju/core/state/apiserver/agent"
+	coretesting "github.com/juju/core/testing"
 )
 
 func TestAll(t *stdtesting.T) {

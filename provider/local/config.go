@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/schema"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/schema"
 )
 
 var checkIfRoot = func() bool {

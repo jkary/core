@@ -11,8 +11,8 @@ import (
 
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/version"
 )
 
 var format_1_16 = formatter_1_16{}

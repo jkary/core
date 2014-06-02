@@ -6,8 +6,8 @@ package tools_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/version"
 )
 
 type ListSuite struct{}

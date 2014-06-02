@@ -8,11 +8,11 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/names"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/juju"
+	"github.com/juju/core/names"
 )
 
 const getConstraintsDoc = `

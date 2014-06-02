@@ -11,9 +11,9 @@ import (
 	"github.com/juju/loggo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/rpc"
-	"launchpad.net/juju-core/rpc/jsoncodec"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/rpc"
+	"github.com/juju/core/rpc/jsoncodec"
+	"github.com/juju/core/testing"
 )
 
 type suite struct {

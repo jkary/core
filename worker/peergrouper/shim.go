@@ -6,9 +6,9 @@ package peergrouper
 import (
 	"labix.org/v2/mgo"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/replicaset"
-	"launchpad.net/juju-core/state"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/replicaset"
+	"github.com/juju/core/state"
 )
 
 // This file holds code that translates from State

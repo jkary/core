@@ -9,13 +9,13 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
-	statetesting "launchpad.net/juju-core/state/testing"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/api/watcher"
+	statetesting "github.com/juju/core/state/testing"
+	coretesting "github.com/juju/core/testing"
 )
 
 func TestAll(t *stdtesting.T) {

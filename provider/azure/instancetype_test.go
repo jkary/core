@@ -7,12 +7,12 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/gwacl"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/testing"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/instances"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/testing"
 )
 
 type instanceTypeSuite struct {

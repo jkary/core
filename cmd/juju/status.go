@@ -9,14 +9,14 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/environs/network"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/client"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/environs/network"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/apiserver/client"
 )
 
 type StatusCommand struct {

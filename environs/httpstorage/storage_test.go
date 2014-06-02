@@ -15,9 +15,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/httpstorage"
-	"launchpad.net/juju-core/environs/storage"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs/httpstorage"
+	"github.com/juju/core/environs/storage"
+	coretesting "github.com/juju/core/testing"
 )
 
 type storageSuite struct{}

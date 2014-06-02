@@ -8,7 +8,7 @@ import (
 
 	"github.com/juju/errors"
 
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/instance"
 )
 
 // distributeuUnit takes a unit and set of clean, possibly empty, instances

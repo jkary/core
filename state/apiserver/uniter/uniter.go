@@ -10,12 +10,12 @@ import (
 
 	"github.com/juju/errors"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/names"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/apiserver/common"
+	"github.com/juju/core/state/watcher"
 )
 
 // UniterAPI implements the API used by the uniter worker.

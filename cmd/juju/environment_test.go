@@ -10,12 +10,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/environs/config"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	_ "launchpad.net/juju-core/provider/local"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/environs/config"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/provider/dummy"
+	_ "github.com/juju/core/provider/local"
+	"github.com/juju/core/testing"
 )
 
 type GetEnvironmentSuite struct {

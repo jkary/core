@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/utils"
 )
 
 // Use ShortAttempt to poll for short-term events.

@@ -8,7 +8,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/testing"
 )
 
 type simpleWorkerSuite struct {

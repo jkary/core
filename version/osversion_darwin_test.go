@@ -9,8 +9,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/juju/core/testing"
+	"github.com/juju/core/utils/set"
 )
 
 type macOSXVersionSuite struct {

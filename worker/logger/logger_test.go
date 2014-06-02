@@ -9,13 +9,13 @@ import (
 	"github.com/juju/loggo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	apilogger "launchpad.net/juju-core/state/api/logger"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/logger"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	apilogger "github.com/juju/core/state/api/logger"
+	"github.com/juju/core/worker"
+	"github.com/juju/core/worker/logger"
 )
 
 // worstCase is used for timeouts when timing out

@@ -9,8 +9,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/manual"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs/manual"
+	"github.com/juju/core/testing"
 )
 
 type initialisationSuite struct {

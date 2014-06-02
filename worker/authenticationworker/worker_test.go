@@ -10,16 +10,16 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/keyupdater"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/ssh"
-	sshtesting "launchpad.net/juju-core/utils/ssh/testing"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/authenticationworker"
+	"github.com/juju/core/agent"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/keyupdater"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils/ssh"
+	sshtesting "github.com/juju/core/utils/ssh/testing"
+	"github.com/juju/core/worker"
+	"github.com/juju/core/worker/authenticationworker"
 )
 
 // worstCase is used for timeouts when timing out

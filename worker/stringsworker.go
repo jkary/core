@@ -6,8 +6,8 @@ package worker
 import (
 	"launchpad.net/tomb"
 
-	apiWatcher "launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/state/watcher"
+	apiWatcher "github.com/juju/core/state/api/watcher"
+	"github.com/juju/core/state/watcher"
 )
 
 // stringsWorker is the internal implementation of the Worker

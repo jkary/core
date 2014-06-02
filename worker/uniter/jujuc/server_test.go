@@ -17,10 +17,10 @@ import (
 	"launchpad.net/gnuflag"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/exec"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/testing"
+	"github.com/juju/core/utils/exec"
+	"github.com/juju/core/worker/uniter/jujuc"
 )
 
 type RpcCommand struct {

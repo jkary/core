@@ -8,7 +8,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state"
+	"github.com/juju/core/state"
 )
 
 type ActionSuite struct {

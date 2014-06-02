@@ -11,14 +11,14 @@ import (
 
 	"github.com/juju/errors"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/tools"
+	"github.com/juju/core/utils/set"
 )
 
 // FullStatus gives the information needed for juju status over the api

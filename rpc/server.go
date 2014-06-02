@@ -12,7 +12,7 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/rpc/rpcreflect"
+	"github.com/juju/core/rpc/rpcreflect"
 )
 
 const CodeNotImplemented = "not implemented"

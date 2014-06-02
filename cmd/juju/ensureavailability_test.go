@@ -9,12 +9,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/constraints"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/presence"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/constraints"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/presence"
+	coretesting "github.com/juju/core/testing"
 )
 
 type EnsureAvailabilitySuite struct {

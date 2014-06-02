@@ -11,12 +11,12 @@ import (
 	"github.com/juju/testing"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	jp "launchpad.net/juju-core/provider/joyent"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	jp "github.com/juju/core/provider/joyent"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/ssh"
 )
 
 func newConfig(c *gc.C, attrs coretesting.Attrs) *config.Config {

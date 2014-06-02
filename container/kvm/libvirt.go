@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"strings"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/utils"
 )
 
 var (

@@ -6,7 +6,7 @@ package shell
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/utils"
 )
 
 // DumpFileOnErrorScript returns a bash script that

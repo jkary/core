@@ -11,7 +11,7 @@ import (
 
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/schema"
+	"github.com/juju/core/schema"
 )
 
 // Settings is a group of charm config option names and values. A Settings

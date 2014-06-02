@@ -6,12 +6,12 @@ package ec2
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/instances"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/testing"
+	"github.com/juju/core/utils"
 )
 
 var _ = gc.Suite(&specSuite{})

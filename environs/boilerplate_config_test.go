@@ -8,11 +8,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/juju/osenv"
-	_ "launchpad.net/juju-core/provider/ec2"
-	_ "launchpad.net/juju-core/provider/manual"
-	_ "launchpad.net/juju-core/provider/openstack"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/juju/osenv"
+	_ "github.com/juju/core/provider/ec2"
+	_ "github.com/juju/core/provider/manual"
+	_ "github.com/juju/core/provider/openstack"
 )
 
 type BoilerplateConfigSuite struct {

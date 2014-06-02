@@ -8,15 +8,15 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	apifirewaller "launchpad.net/juju-core/state/api/firewaller"
-	"launchpad.net/juju-core/state/api/params"
-	apiwatcher "launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/names"
+	apifirewaller "github.com/juju/core/state/api/firewaller"
+	"github.com/juju/core/state/api/params"
+	apiwatcher "github.com/juju/core/state/api/watcher"
+	"github.com/juju/core/state/watcher"
+	"github.com/juju/core/worker"
 )
 
 var logger = loggo.GetLogger("juju.worker.firewaller")

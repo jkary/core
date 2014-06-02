@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/utils"
 )
 
 func WriteSystemIdentityFile(c Config) error {

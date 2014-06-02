@@ -9,12 +9,12 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/juju/core/charm"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	coretesting "github.com/juju/core/testing"
 )
 
 type SetSuite struct {

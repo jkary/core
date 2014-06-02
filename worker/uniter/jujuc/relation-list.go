@@ -8,7 +8,7 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
+	"github.com/juju/core/cmd"
 )
 
 // RelationListCommand implements the relation-list command.

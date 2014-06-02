@@ -11,10 +11,10 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/replicaset"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/replicaset"
+	"github.com/juju/core/state/api/params"
 )
 
 // MachineTemplate holds attributes that are to be associated

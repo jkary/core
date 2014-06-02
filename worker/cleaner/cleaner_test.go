@@ -9,10 +9,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/cleaner"
+	"github.com/juju/core/juju/testing"
+	coretesting "github.com/juju/core/testing"
+	"github.com/juju/core/worker"
+	"github.com/juju/core/worker/cleaner"
 )
 
 func TestPackage(t *stdtesting.T) {

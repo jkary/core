@@ -7,9 +7,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/container/kvm"
-	"launchpad.net/juju-core/container/kvm/mock"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/container/kvm"
+	"github.com/juju/core/container/kvm/mock"
+	"github.com/juju/core/testing"
 )
 
 type MockSuite struct {

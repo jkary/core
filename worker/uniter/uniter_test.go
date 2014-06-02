@@ -23,23 +23,23 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/agent/tools"
-	corecharm "launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	apiuniter "launchpad.net/juju-core/state/api/uniter"
-	coretesting "launchpad.net/juju-core/testing"
-	ft "launchpad.net/juju-core/testing/filetesting"
-	"launchpad.net/juju-core/utils"
-	utilexec "launchpad.net/juju-core/utils/exec"
-	"launchpad.net/juju-core/utils/fslock"
-	"launchpad.net/juju-core/utils/proxy"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/uniter"
-	"launchpad.net/juju-core/worker/uniter/charm"
+	"github.com/juju/core/agent/tools"
+	corecharm "github.com/juju/core/charm"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/juju/testing"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
+	"github.com/juju/core/state/api/params"
+	apiuniter "github.com/juju/core/state/api/uniter"
+	coretesting "github.com/juju/core/testing"
+	ft "github.com/juju/core/testing/filetesting"
+	"github.com/juju/core/utils"
+	utilexec "github.com/juju/core/utils/exec"
+	"github.com/juju/core/utils/fslock"
+	"github.com/juju/core/utils/proxy"
+	"github.com/juju/core/worker"
+	"github.com/juju/core/worker/uniter"
+	"github.com/juju/core/worker/uniter/charm"
 )
 
 // worstCase is used for timeouts when timing out
@@ -73,7 +73,7 @@ func (s *UniterSuite) SetUpSuite(c *gc.C) {
 	toolsDir := tools.ToolsDir(s.dataDir, "unit-u-0")
 	err := os.MkdirAll(toolsDir, 0755)
 	c.Assert(err, gc.IsNil)
-	cmd := exec.Command("go", "build", "launchpad.net/juju-core/cmd/jujud")
+	cmd := exec.Command("go", "build", "github.com/juju/core/cmd/jujud")
 	cmd.Dir = toolsDir
 	out, err := cmd.CombinedOutput()
 	c.Logf(string(out))

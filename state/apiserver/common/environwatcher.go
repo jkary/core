@@ -4,10 +4,10 @@
 package common
 
 import (
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/watcher"
 )
 
 // EnvironWatcher implements two common methods for use by various

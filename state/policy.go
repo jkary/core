@@ -8,9 +8,9 @@ import (
 
 	"github.com/juju/errors"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/instance"
 )
 
 // Policy is an interface provided to State that may

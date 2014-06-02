@@ -12,8 +12,8 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/gwacl"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/testing"
 )
 
 type instanceSuite struct {

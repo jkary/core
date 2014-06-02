@@ -6,10 +6,10 @@ package factory_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/container/factory"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/container"
+	"github.com/juju/core/container/factory"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/testing"
 )
 
 type factorySuite struct {

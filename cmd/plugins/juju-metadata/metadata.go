@@ -9,10 +9,10 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/juju"
-	_ "launchpad.net/juju-core/provider/all"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/juju"
+	_ "github.com/juju/core/provider/all"
 )
 
 var logger = loggo.GetLogger("juju.plugins.metadata")

@@ -11,10 +11,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/state"
+	"github.com/juju/core/testing"
+	"github.com/juju/core/utils/set"
 )
 
 // fakeManager allows us to test deployments without actually deploying units

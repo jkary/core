@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/apt"
+	"github.com/juju/core/container"
+	"github.com/juju/core/utils"
+	"github.com/juju/core/utils/apt"
 )
 
 var requiredPackages = []string{

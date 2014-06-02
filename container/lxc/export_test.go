@@ -3,7 +3,7 @@
 
 package lxc
 
-import "launchpad.net/juju-core/container"
+import "github.com/juju/core/container"
 
 var (
 	ContainerConfigFilename = containerConfigFilename

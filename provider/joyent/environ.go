@@ -7,15 +7,15 @@ import (
 	"fmt"
 	"sync"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/provider/common"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
+	"github.com/juju/core/constraints"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/environs/config"
+	"github.com/juju/core/environs/imagemetadata"
+	"github.com/juju/core/environs/simplestreams"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/provider/common"
+	"github.com/juju/core/state"
+	"github.com/juju/core/state/api"
 )
 
 // This file contains the core of the Joyent Environ implementation.

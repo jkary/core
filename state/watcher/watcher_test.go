@@ -12,8 +12,8 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/state/watcher"
+	"github.com/juju/core/testing"
 )
 
 // Test tuning parameters.

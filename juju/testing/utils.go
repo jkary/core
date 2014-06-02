@@ -6,8 +6,8 @@ package testing
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/state"
 )
 
 // AddStateServerMachine adds a "state server" machine to the state so

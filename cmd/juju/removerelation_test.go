@@ -6,9 +6,9 @@ package main
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd/envcmd"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/cmd/envcmd"
+	jujutesting "github.com/juju/core/juju/testing"
+	"github.com/juju/core/testing"
 )
 
 type RemoveRelationSuite struct {

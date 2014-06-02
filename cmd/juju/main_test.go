@@ -18,12 +18,12 @@ import (
 	"launchpad.net/gnuflag"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/juju/osenv"
-	_ "launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/version"
+	"github.com/juju/core/cmd"
+	"github.com/juju/core/cmd/envcmd"
+	"github.com/juju/core/juju/osenv"
+	_ "github.com/juju/core/provider/dummy"
+	"github.com/juju/core/testing"
+	"github.com/juju/core/version"
 )
 
 func TestPackage(t *stdtesting.T) {

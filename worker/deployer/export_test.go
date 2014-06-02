@@ -4,8 +4,8 @@
 package deployer
 
 import (
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/juju/core/agent"
+	"github.com/juju/core/state/api/params"
 )
 
 type fakeAPI struct{}

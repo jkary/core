@@ -18,8 +18,8 @@ import (
 	"github.com/joyent/gomanta/manta"
 	"github.com/juju/errors"
 
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/utils"
+	"github.com/juju/core/environs/storage"
+	"github.com/juju/core/utils"
 )
 
 type JoyentStorage struct {

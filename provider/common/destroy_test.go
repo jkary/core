@@ -11,10 +11,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
-	"launchpad.net/juju-core/testing"
+	"github.com/juju/core/environs"
+	"github.com/juju/core/instance"
+	"github.com/juju/core/provider/common"
+	"github.com/juju/core/testing"
 )
 
 type DestroySuite struct {

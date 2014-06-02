@@ -10,8 +10,8 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/juju/core/state/api/params"
+	"github.com/juju/core/state/watcher"
 )
 
 // Watcher watches any changes to the state.
