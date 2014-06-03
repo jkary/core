@@ -133,3 +133,5 @@ requiring service, unit or machine names (like e.g. juju status <service>,
 juju ssh <instance>, juju terminate-machine <machine#>, etc),
 by parsing cached `juju status` output for speedup. It also does
 command flags completion by parsing `juju help ...` output.
+
+testing testing
