@@ -5,6 +5,8 @@ Before contributing to `juju-core` please read the following sections describing
 the tools and conventions of this project. This file is a companion to README
 and it is assumed that file has been read prior.
 
+Test
+
 git
 ---
 
